@@ -40,16 +40,15 @@ What is the `array` variable now equal to?
 
 (X)`[1, 2, 3, 4]` ( )`[1, 2, 3]`
 
-?: What is the return value of the following method call?
+?: If we preform the following:
 
 ```ruby
-array = ["hi", "there", "quizmaster"]
-array.each do |word|
-	word << "!"
-end
+string = "hi there"
+string << "quizmaster!"
 ```
+What is the value of `string`?
 
-( )`["hi", "there", "quizmaster"]` (X)`["hi!", "there!", "quizmaster!"]`
+( )`"hi there"` (X)`"hi there quizmaster!"`
 
 ?: What is the return value of the following method call?
 
@@ -62,6 +61,25 @@ end
 
 (X)`[1, 2, 3, 4]` ( )`[2, 4, 6, 8]`
 
+?: Below we have a method that accepts two arguments of two numbers:
+
+```ruby
+def change_the_number(num1, num2)
+	num1 = num1 + num2
+end
+```
+
+If we call it in the following way: 
+
+```ruby
+number_one = 5
+number_two = 3
+change_the_number(number_one, number_two)
+```
+
+What is the value of `number_one`?
+
+(X)`5` ( )`8`
 
 ???
 
