@@ -49,7 +49,7 @@ array.each do |word|
 end
 ```
 
-( )`["hi", "there", "quizmaster"]` (X)["hi!", "there!", "quizmaster!"]
+( )`["hi", "there", "quizmaster"]` (X)`["hi!", "there!", "quizmaster!"]`
 
 ?: What is the return value of the following method call?
 
