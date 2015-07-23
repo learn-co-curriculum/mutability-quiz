@@ -2,8 +2,8 @@
 
 ## Objectives
 
-1. Strengthen your understanding of method scopes
-2. Strengthen your understanding of mutability in Ruby
+1. Strengthen your understanding of method scopes.
+2. Strengthen your understanding of mutability in Ruby.
 
 ???
 
@@ -25,7 +25,7 @@ array = ["hi", "there"]
 quiz_method(array, "quizmaster")
 ```
 
-what is the variable, `array`, now equal to?
+What is the variable `array` now equal to?
 
 ( )`["hi", "there"]` (X)`["hi", "there", "quizmaster"]`
 
@@ -40,7 +40,7 @@ What is the `array` variable now equal to?
 
 (X)`[1, 2, 3, 4]` ( )`[1, 2, 3]`
 
-?: If we preform the following:
+?: If we perform the following:
 
 ```ruby
 string = "hi there"
