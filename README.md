@@ -40,7 +40,7 @@ What is the `array` variable now equal to?
 
 (X)`[1, 2, 3, 4]` ( )`[1, 2, 3]`
 
-?: If we preform the following:
+?: If we pform the following:
 
 ```ruby
 string = "hi there"
