@@ -44,7 +44,7 @@ What is the `array` variable now equal to?
 
 ```ruby
 string = "hi there"
-string << "quizmaster!"
+string << " quizmaster!"
 ```
 What is the value of `string`?
 
