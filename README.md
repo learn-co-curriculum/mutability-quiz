@@ -7,13 +7,13 @@
 
 ???
 
-# Mutability Challenge
+## Mutability Challenge
 
 ?: We have the following method that takes in an argument of an array and a string:
 
 ```ruby
 def quiz_method(array, object)
-	array << object
+  array << object
 end
 ```
 
@@ -46,6 +46,7 @@ What is the `array` variable now equal to?
 string = "hi there "
 string << "quizmaster!"
 ```
+
 What is the value of `string`?
 
 ( )`"hi there"` (X)`"hi there quizmaster!"`
@@ -55,7 +56,7 @@ What is the value of `string`?
 ```ruby
 array = [1, 2, 3, 4]
 array.each do |num|
-	num * 2
+  num * 2
 end
 ```
 
@@ -65,7 +66,7 @@ end
 
 ```ruby
 def change_the_number(num1, num2)
-	num1 = num1 + num2
+  num1 = num1 + num2
 end
 ```
 
@@ -82,19 +83,5 @@ What is the value of `number_one`?
 (X)`5` ( )`8`
 
 ???
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/mutability-quiz' title='Quiz: Understanding Mutability'>Quiz: Understanding Mutability</a> on Learn.co and start learning to code for free.</p>
